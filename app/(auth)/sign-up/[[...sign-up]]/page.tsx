@@ -1,4 +1,4 @@
-import {SignUp } from "@clerk/nextjs";
+import {SignUp}  from "@clerk/nextjs";
 import Link from "next/link";
 
 
@@ -10,7 +10,7 @@ import Link from "next/link";
 
 
 
-const SignUp = () => {
+const SignUpPage = () => {
 
 
 
@@ -41,12 +41,22 @@ const SignUp = () => {
 
     <div className = "auth-container">
 
-    <SignUp appearance={{
-        elements: {
-            rootBox: "mx-auto",
-            card: "shadow-xl",
-        },
-    }}/>
+
+      <SignUp appearance = {{
+      
+              elements : {
+      
+                  rootBox : "mx-auto",
+                  card : "shadow-xl"
+              }
+      
+      
+      
+      
+          }}/>
+          
+
+    
         
         
         
@@ -56,4 +66,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default SignUpPage

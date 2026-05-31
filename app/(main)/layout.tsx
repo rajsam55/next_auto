@@ -28,8 +28,8 @@ const clerkUser = await currentUser()
 const navItems = [
 
   {
-    label : "Home",
-    href : "/",
+    label : "Dashboard",
+    href : "/dashboard",
     icon  : HomeIcon
 
 
